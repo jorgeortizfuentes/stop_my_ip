@@ -19,6 +19,6 @@ if ip_monitor["change"]:
     if notify_to_mail:
         sent_ip_to_email(
             f"IP address has changed to {ip_monitor['ip']}",
-            "IP address in {subdomain}.{domain} has changed",
+            f"IP address in {subdomain}.{domain} has changed",
         )
         print("Notification has been sent to email.")
