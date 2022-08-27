@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Config
+config.py
+
+# Logs
+*.log
+
+# Trunk
+.trunk/
+.flake8
+.isort.cfg
+.markdownlint.yaml
