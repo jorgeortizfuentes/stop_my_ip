@@ -8,8 +8,6 @@ def get_ip():
 
 def ip_monitor():
     my_ip = get_ip()
-    # Read "my_ip.log"
-    
     path = os.path.dirname(os.path.realpath(__file__))
     log_file = os.path.join(path, "my_ip.log")
     my_ip_log = open(log_file, "r").read()
